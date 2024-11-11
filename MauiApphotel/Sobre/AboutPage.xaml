@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApphotel.Views.AboutPage"
+             BackgroundColor="#2B0B98">
+    <VerticalStackLayout VerticalOptions="Center"
+                         Padding="10">
+
+        <Label Text="Sobre o Aplicativo" 
+               FontFamily="Kalam"
+               FontSize="50"
+               TextColor="{StaticResource White}"
+               HorizontalOptions="Center" />
+
+        <Frame Padding="10"
+               BackgroundColor="{StaticResource Black}">
+            <VerticalStackLayout>
+                <Label Text="Desenvolvido por: Iago Dias Tavares" 
+                       FontSize="18" 
+                       TextColor="{StaticResource White}" 
+                       HorizontalOptions="Center" />
+                <Label Text="Ano de Desenvolvimento: 2024" 
+                       FontSize="18" 
+                       TextColor="{StaticResource White}" 
+                       HorizontalOptions="Center" />
+                <Label Text="Nosso aplicativo de hotel oferece uma maneira simples e eficiente para gerenciar suas reservas e estadias. Você pode visualizar as acomodações disponíveis, calcular diárias, e solicitar serviços adicionais, tudo em um único lugar. Desenvolvido com o objetivo de proporcionar a melhor experiência para nossos usuários." 
+                       FontSize="16" 
+                       TextColor="{StaticResource White}" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       Padding="10"
+                       HorizontalTextAlignment="Start" 
+                       LineBreakMode="WordWrap"/>
+                       <Button Text="Voltar" 
+                       HorizontalOptions="Center"
+                       Clicked="OnButtonClicked"
+                       BackgroundColor="White"
+                       TextColor="Black"/>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
+
+
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApphotel.Views.Agradecimento"
+             BackgroundColor="#2B0B98">
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="OBRIGADO!"
+               FontSize="Large"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               Margin="10"/>
+
+        <!-- Texto de Agradecimento Adicionado -->
+        <Label Text="Agradecemos pela sua preferência em se hospedar conosco. Desejamos uma ótima estadia!"
+              FontFamily="Kalam"
+               FontSize="Large"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Margin="20"/>
+
+        <Button Text="Voltar"
+                BackgroundColor="White"
+                TextColor="Black"
+                Margin="10"
+                Clicked="OnBackButtonClicked"/>
+    </VerticalStackLayout>
+</ContentPage>
+
+
